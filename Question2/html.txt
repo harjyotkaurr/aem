@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html data-sly-use.logic="logic.js"> 
+<head>
+   
+    <title>${currentPage.title}</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<template data-sly-template.pageTitle="${@ title}">
+    <h1>${title}</h1>
+</template>
+
+<div data-sly-call="${pageTitle @ title ='hello'}"></div
+</body>
+</html>

@@ -1,0 +1,6 @@
+use(function () {
+    var isLoggedIn = currentPage.properties["isLoggedIn"] || false; 
+    return {
+        isLoggedIn: isLoggedIn
+    };
+});

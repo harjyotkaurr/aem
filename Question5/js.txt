@@ -1,0 +1,5 @@
+use(function () {
+    return {
+        colors: ["red", "brown", "black"]
+    };
+});

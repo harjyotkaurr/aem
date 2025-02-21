@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html data-sly-use.logic="logic.js"> 
+<head>
+   
+    <title>${currentPage.title}</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<p data-sly-test="${logic.isLoggedIn}">Welcome back!</p>
+<p data-sly-test="${!logic.isLoggedIn}">Please log in to continue.</p>
+
+</body>
+</html>

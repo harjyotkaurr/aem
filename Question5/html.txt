@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html data-sly-use.logic="logic.js">
+<head>
+
+    <title>${currentPage.title}</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<ul data-sly-list.color="${logic.colors}">
+    <li>${color}</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html data-sly-use.logic="logic.js"> 
+<head>
+   
+    <title>${currentPage.title}</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+ <p>Current Time: ${logic.currentTime}</p>
+</body>
+</html>
